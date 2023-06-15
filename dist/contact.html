@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripiotn" content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, odit officia autem earum vel maxime.">
+    <title>Forest Group - skontaktuj się!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <nav class="nav">
+    <div class="wrapper wrapper-nav"> 
+        <a href="index.html#" class="nav__logo">
+            <img src="./img/icons/tree.svg" alt="" class="nav__logo-icon"><span>Forest</span>
+        </a>
+        <button class="nav__burger-btn"><img src="./img/icons/menu.svg" alt="" class="nav__burger-icon"></button>
+        <div class="nav__items nav__items-desktop">
+            <a href="index.html#" class="nav__item">Home</a>
+            <a href="index.html#about-us" class="nav__item">O nas</a>
+            <a href="index.html#offers" class="nav__item">Oferta</a>
+            <a href="contact.html" class="nav__item">Kontakt</a>
+        </div>
+        <div class="nav__items nav__items-mobile ">
+            <a href="index.html#" class="nav__item-mobile">Home</a>
+            <a href="index.html#about-us" class="nav__item-mobile">O nas</a>
+            <a href="index.html#offers" class="nav__item-mobile">Oferta</a>
+            <a href="contact.html" class="nav__item-mobile">Kontakt</a>
+        </div>
+    </div>
+</nav>
+    <header class="header">
+    <div class="hero-shadow"></div>
+    <div class="wrapper">
+        <div class="header__text">
+            <p class="header__text--first">Forest Group</p>
+            <p class="header__text--second">Najpiękniejszy park w Twojej okolicy!</p>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <section class="contact section">
+            <div class="wrapper">
+                <h2 class="section-heading">kontakt</h2>
+                <p class="contact__text">Skontaktuj się z nami za pomocą formularza poniżej!</p>
+
+                <form class="contact__form">
+                    <div class="contact__form-top">
+                        <label for="name" class="contact__form-label">Imię i nazwisko:</label>
+                        <input type="text" class="contact__form-input" id="name">
+
+                        <label for="email" class="contact__form-label">Adres e-mail:</label>
+                        <input type="text" class="contact__form-input" id="email">
+                    </div>
+
+                    <label for="" class="contact__form-label">Wiadomość:</label>
+                    <textarea id="msg" class="contact__form-textarea"></textarea>
+
+                    <button type="submit" class="contact__form-btn btn-special-animation">Wyślij</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="map section">
+            <div class="wrapper">
+                <h2 class="section-heading">mapa</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.846234066231!2d19.89202277692538!3d50.08916571331089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1685619180291!5m2!1spl!2spl" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+    <div class="wrapper-small">
+
+        <div class="footer__boxes">
+            <div class="footer__logo">
+                <p><img src="./img/icons/tree.svg" alt="" class="footer__logo-icon">Forest</p>
+            </div>
+
+            <div class="footer__boxes-desktop">
+                <div class="footer__box">
+                    <h3 class="footer__box-title">O nas</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#">Historia</a></li>
+                        <li class="footer__box-list-item"><a href="#">Parki</a></li>
+                        <li class="footer__box-list-item"><a href="#">Opinie</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__box">
+                <h3 class=" footer__box-title">Nasza firma</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#">Praca</a></li>
+                        <li class="footer__box-list-item"><a href="#">Kadry</a></li>
+                        <li class="footer__box-list-item"><a href="#">Zarząd</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__box">
+                    <h3 class="footer__box-title">Dokumenty</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#">Wnioski</a></li>
+                        <li class="footer__box-list-item"><a href="#">Rezerwacje</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="footer__bottom-text"> &copy;<span class="footer__year"></span> Forest Group Company Ltd</p>
+
+</footer>
+
+    <script src="./js/other.min.js"></script>
+</body>
+
+</html>

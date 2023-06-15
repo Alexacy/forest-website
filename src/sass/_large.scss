@@ -1,0 +1,121 @@
+@use './mixins' as mixins;
+
+@media (min-width: 992px) {
+	.section-heading {
+		font-size: 4rem;
+	}
+
+	.section {
+		padding: 4em 2em;
+	}
+
+	.nav {
+		&__logo {
+			padding: 0 0.8em;
+			font-size: 3rem;
+
+			&-icon {
+				height: 3.4rem;
+			}
+		}
+
+		&__burger-btn {
+			display: none;
+		}
+
+		&__items-desktop {
+			display: flex;
+		}
+
+		&__item {
+			padding: 2em;
+			font-size: 1.8rem;
+			color: black;
+			background-color: #fff;
+			transition: background-color 0.3s, color 0.3s;
+
+			&:hover,
+			&--active {
+				color: white;
+				background-color: black;
+			}
+		}
+	}
+
+	.header {
+		@include mixins.heroImages('../img/header-img-big.jpg');
+
+		&__text--second {
+			font-size: 4rem;
+		}
+	}
+
+	.about-us {
+		&__title {
+			font-size: 2.4rem;
+		}
+
+		&__text,
+		&__link {
+			font-size: 1.8rem;
+		}
+	}
+
+	.hero-img {
+		@include mixins.heroImages('../img/hero-img-big.jpg');
+
+		&__title {
+			font-size: 4rem;
+		}
+	}
+
+	.offers {
+		&__text {
+			font-size: 2.4rem;
+		}
+
+		&__cards {
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+		}
+
+		&__card {
+			margin: 1.6em 0;
+			width: 30%;
+		}
+	}
+
+	.map{
+		iframe{
+			height: 450px;
+		}
+	}
+
+	.footer {
+		padding-top: 3em;
+		&__logo {
+			font-size: 4rem;
+
+			&-icon {
+				height: 4.4rem;
+			}
+		}
+
+		&__box {
+			&-title {
+				font-size: 2.2rem;
+			}
+
+			&-list {
+				&-item {
+					font-size: 1.6rem;
+				}
+			}
+		}
+
+		&__bottom-text {
+			font-size: 1.6rem;
+		}
+	}
+}

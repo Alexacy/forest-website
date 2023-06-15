@@ -1,0 +1,94 @@
+@media (min-width: 1100px){
+    .nav {
+		&__logo {
+			font-size: 4rem;
+
+			&-icon {
+				height: 4.4rem;
+			}
+		}
+	}
+
+    .header {
+		&__text--first {
+			font-size: 2.8rem;
+		}
+
+		&__text--second {
+			font-size: 4.4rem;
+		}
+	}
+
+    .about-us {
+		&__title {
+			font-size: 3rem;
+		}
+
+		&__text,
+		&__link {
+            line-height: 2.5;
+		}
+	}
+
+    .hero-img{
+        &__title{
+            font-size: 5rem;
+        }
+    }
+
+    .offers {
+		&__card {
+			&-title{
+                font-size: 3rem;
+            }
+
+            &-price{
+                font-size: 5rem;
+            }
+
+            &-option-list-item{
+                font-size: 1.8rem;
+            }
+		}
+	}
+
+    .footer {
+		padding-top: 4em;
+		&__logo {
+			font-size: 5.8rem;
+
+			&-icon {
+				height: 6.2rem;
+			}
+		}
+        
+		&__boxes{
+            margin-bottom: 2em;
+
+		}
+        
+		&__box{
+            &-title{
+                font-size: 2.6rem;
+			}
+
+            &-list{
+                &-item{
+                    margin: 1.4em 0;
+                }
+            }
+		}
+
+        &__bottom-text {
+            padding: 1.8em 0;
+        }
+	}
+}
+
+@media (min-width: 1200px){
+	.footer{
+		&__logo {
+			padding: 0;
+		}
+	}
+}
